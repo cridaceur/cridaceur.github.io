@@ -1,0 +1,71 @@
+.main {
+    background-color: aqua;
+    width: 900px;
+    height: 750px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2.5%
+}
+
+.artdiary {
+    transform: translate(15%, 30%)
+}
+
+.arttc {
+    transform: translate(150%, 10%)
+}
+
+.paper {
+    transform: translate(20%, 0%);
+}
+
+.desk {
+    line-height: 50px;
+    font-size: 20px;
+    height: 7.5%;
+    transform: translate(165%, -200%);
+}
+
+.door {
+    line-height: 2px;
+    font-size: 20px;
+    margin: auto;
+    height: 1.5%;
+    width: 30%;
+    border-radius: 5px;
+    transform: translate(50%, -390%);
+    border: solid 0px black;
+}
+
+.text {
+    font-size: 35px;
+    line-height: 0px;
+    text-align: center;
+    background-color: inherit;
+    width: 15%;
+    height: 1%;
+    border-radius: 0px;
+    border: solid 0px black;
+    margin: auto;
+    transform: translate(100%, -700%);
+}
+
+.exit {
+    height: 1.5%;
+    width: 15%;
+    border-radius: 5px;
+    margin: auto;
+    transform: translate(-205%, -7175%);
+    border: solid 0px black;
+}
+
+div {
+    font-size: 35px;
+    line-height: 210px;
+    text-align: center;
+    background-color: forestgreen;
+    width: 35%;
+    height: 30%;
+    border-radius: 30px;
+    border: solid 2px black;
+}
