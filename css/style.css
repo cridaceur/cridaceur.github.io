@@ -78,3 +78,31 @@ p {
     padding: 3%;
     font-size: 2vw;
 }
+
+.hours {
+    margin: auto;
+    width: 100%;
+}
+
+.open {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 10%;
+    padding-bottom: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.imagegrid {
+    display: flex;
+    flex-flow: wrap;
+        width: 97.5%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.imagecontent {
+    width: 25%;
+}
