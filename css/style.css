@@ -1,19 +1,24 @@
 html {
-    background-color: aliceblue;
+    background-color: antiquewhite;
+    width: 75%;
+    margin: auto;
+    margin-top: 10;
+    margin-bottom: 10;
 }
 
 body {
-    background-color: blue;
+    background-color: white;
     width: 65%;
+    height: 100%;
     margin: auto;
+    border-radius: 10px;
 }
-
 
 img {
     width: 75%;
     margin: auto;
-    border-radius: 20px;
-    box-shadow: 3px 3px 7px #4d4d4d;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px #4d4d4d;
 }
 
 .image {
@@ -49,12 +54,27 @@ img {
 header {
     width: 50%;
     margin: auto;
-    padding: 0.5%;
-    background-color: aqua;
+    padding: 2%;
     text-align: center;
 }
 
 .logo {
     padding: 1%;
     width: 50%;
+}
+
+.openinghours {
+    display: block;
+    vertical-align: middle;
+    background-color: beige;
+    margin: 6% auto;
+    padding: 1%;
+    height: 15%;
+    width: 45%;
+    text-align: center;
+}
+
+p {
+    padding: 3%;
+    font-size: 2vw;
 }
