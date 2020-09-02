@@ -1,71 +1,60 @@
-.main {
-    background-color: aqua;
-    width: 900px;
-    height: 750px;
-    border-radius: 10px;
+html {
+    background-color: aliceblue;
+}
+
+body {
+    background-color: blue;
+    width: 65%;
     margin: auto;
-    margin-top: 2.5%
 }
 
-.artdiary {
-    transform: translate(15%, 30%)
+
+img {
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px #4d4d4d;
 }
 
-.arttc {
-    transform: translate(150%, 10%)
+.image {
+    display: flex;
+    align-content: center;
+    margin-top: 2.5%;
+}
+
+.cards {
+    position: absolute;
+    top: 28.5%;
+    right: 33%;
+    height: 22%;
+    width: 17%;
+}
+
+.diary {
+    position: absolute;
+    top: 16%;
+    left: 31%;
+    height: 23%;
+    width: 16%;
 }
 
 .paper {
-    transform: translate(20%, 0%);
+    position: absolute;
+    bottom: 31%;
+    left: 32%;
+    height: 23%;
+    width: 16%;
 }
 
-.desk {
-    line-height: 50px;
-    font-size: 20px;
-    height: 7.5%;
-    transform: translate(165%, -200%);
-}
-
-.door {
-    line-height: 2px;
-    font-size: 20px;
+header {
+    width: 50%;
     margin: auto;
-    height: 1.5%;
-    width: 30%;
-    border-radius: 5px;
-    transform: translate(50%, -390%);
-    border: solid 0px black;
-}
-
-.text {
-    font-size: 35px;
-    line-height: 0px;
+    padding: 0.5%;
+    background-color: aqua;
     text-align: center;
-    background-color: inherit;
-    width: 15%;
-    height: 1%;
-    border-radius: 0px;
-    border: solid 0px black;
-    margin: auto;
-    transform: translate(100%, -700%);
 }
 
-.exit {
-    height: 1.5%;
-    width: 15%;
-    border-radius: 5px;
-    margin: auto;
-    transform: translate(-205%, -7175%);
-    border: solid 0px black;
-}
-
-div {
-    font-size: 35px;
-    line-height: 210px;
-    text-align: center;
-    background-color: forestgreen;
-    width: 35%;
-    height: 30%;
-    border-radius: 30px;
-    border: solid 2px black;
+.logo {
+    padding: 1%;
+    width: 50%;
 }
